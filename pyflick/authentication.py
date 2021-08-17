@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from urllib.parse import urljoin
 
 from aiohttp import ClientSession, ClientResponse, FormData
 
@@ -9,8 +10,6 @@ from .const import (
     DEFAULT_CLIENT_ID,
     DEFAULT_CLIENT_SECRET
 )
-
-from urllib.parse import urljoin
 
 
 class AbstractFlickAuth(ABC):
