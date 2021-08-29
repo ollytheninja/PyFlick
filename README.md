@@ -2,7 +2,16 @@
 [![PyPI version](https://badge.fury.io/py/PyFlick.svg)](https://pypi.org/project/PyFlick/)
 
 # PyFlick
+
 A quick and dirty Python API for [Flick Electric](https://flickelectric.co.nz).
+
+
+## Quickstart
+
+* Copy the `.env.template` file to `.env`
+* Input your Flick Electric username and password in the `.env` file.
+* `pip install -r requirements.txt`
+* Finally run `main.py`
 
 ### Usage
 
